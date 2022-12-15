@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <locale.h>
 
-//funÁ„o:
+/*Escreva uma fun√ß√£o que recebe dois n√∫meros como par√¢metros 
+e retorna o dobro do maior dos n√∫meros recebidos. */
+
+//fun√ß√£o:
 int dobro(int num1, int num2) {
 	int d;
 	
@@ -19,14 +22,14 @@ int main() {
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	int nm1, nm2, d;
 	
-	printf("Digite um n˙mero: ");
+	printf("Digite um n√∫mero: ");
 	scanf("%d", &nm1);
 	
-	printf("\nDigite outro n˙mero: ");
+	printf("\nDigite outro n√∫mero: ");
 	scanf("%d", &nm2);
 	
 	d = dobro(nm1, nm2);
-	printf("\nO dobro do maior n˙mero lido È: %d", d);
+	printf("\nO dobro do maior n√∫mero lido √©: %d", d);
 	
 	return 0;
 }
